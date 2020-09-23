@@ -1,5 +1,5 @@
-### Hi there 👋
-
+### print("hola👋")
+voy a tratar de mantener actualizados ejercicios de coloquios/parciales/tps a medida que los vaya haciendo ⚡
 <!--
 **AugustoCarmona/AugustoCarmona** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
