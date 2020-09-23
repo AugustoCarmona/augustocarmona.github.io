@@ -1,5 +1,5 @@
 ### print("hola👋")
-voy a tratar de mantener actualizados ejercicios de coloquios/parciales/tps de las materias de computacion de la FIUBA a medida que los vaya haciendo 😄
+voy a tratar de mantener actualizados ejercicios de coloquios/parciales/tps de las materias de computacion de la FIUBA a medida que los vaya haciendo ⚡
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/https://github.com/AugustoCarmona)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/https://www.facebook.com/augusto.carmona.perez)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/https://www.instagram.com/augusto.carmona//)  
 
