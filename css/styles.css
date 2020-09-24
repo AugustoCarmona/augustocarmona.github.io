@@ -4,7 +4,14 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-h1 {
+
+  h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+}
+
+.navbar {
+  background-color: black;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+  min-height: 90px;
 }
