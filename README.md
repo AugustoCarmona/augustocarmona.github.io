@@ -1,3 +1,3 @@
-### Sitio Personal
-##### actualmente bajo construcción
+### Personal Site
+##### under construction
 augustocarmona.github.io
