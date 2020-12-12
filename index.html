@@ -1,51 +1,438 @@
-<!-- <link rel="stylesheet" href="https://augustocarmona.github.io/css/normalize.css"> -->
-<!-- <link rel="stylesheet" href="https://augustocarmona.github.io/css/styles.css"> -->
 <!doctype html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <title>Augusto Carmona</title>
-  </head>
-  <body>  
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand" href="">Augusto Carmona</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto"> <!--ml-auto para que los links se muevan a la derecha-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Sobre Mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <main id="hero">
-        <div class="container">
-            <h1>Hola!</h1>
-            <h2>Todavía no tengo mucho que mostrar :(</h2>
-        </div>
-    </main>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'> 
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/broser_icon.svg">
+        <title>Augusto Carmona</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    -->
-  </body>
+                <div>
+                    <a href="#" class="nav__logo">Augusto</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class="bx bx-x" ></i>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#working" class="nav__link">Wot?</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <!--
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#project" class="nav__link">Project in Mind</a></li>
+                        <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contactme</a></li>
+                        -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- /Header -->
+
+        <!-- Main -->
+        <main class="l-main">
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <div class="home__data">
+                        <div class="home__img">
+                            <img src="/" alt="">
+                        </div>
+
+                        <h1 class="home__title">Augusto Carmona</h1>
+                        <span class="home__profession">Systems Analysis Student</span>
+
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/augusto-carmona-perez-921b88180/" class="home__social-link"><i class="bx bxl-linkedin"></i></a>
+                            <a href="https://github.com/AugustoCarmona" class="home__social-link"><i class="bx bxl-github"></i></a>
+                            <a href="https://www.instagram.com/augusto.carmona/" class="home__social-link"><i class="bx bxl-instagram"></i></a>
+                            <a href="https://www.facebook.com/augusto.carmona.perez" class="home__social-link"><i class="bx bxl-facebook"></i></a>
+                        </div>
+
+                        <a download="" href="assets/documents/Résumé.pdf" class="button home__button">Download my Résumé</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- /Main -->
+
+        <!-- I´m working on this -->
+        <section class="project section" id="working">
+            <div class="project__container bd-grid">
+                <div class="project__data">
+                    <h2 class="section-title project__title">Hmm ... I'm not quite sure how you got here.</h2>
+                    <p class="project__description">
+                        Anyway I am still working on this site. <br> So, be patient. &#128540; <br> ... and have a coffee ☕ </p>
+                </div>
+
+                <!--<img src="assets/img/projectmind.png" alt="project image"> Acá va una imagen mía --> 
+            </div>
+        </section>
+        <!-- /I´m working on this -->
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <span class="section-subtitle">Let me introduce myself</span>
+            <h2 class="section-title">Who am I?</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description">Originally from Rosario, but currently residing in Buenos Aires, I am a person in love with programming, looking for the opportunity to venture into the Software Industry.
+                        I want to learn and to make a difference for the sake of the people that surround me. I want to land on a enterprise where I can challenge my knowledge, and keep growing as a young professional. Responsible, enthusiastic, and always at hand are words that describe me, and Dennis Ritchie, Linus Torvalds and Guido Van Rossum are some of the personalities that inpire me.</p>
+                    <!--<img src="assets/img/about.png" alt="image about" class="about__img"> Acá va otra imagen mía -->
+                </div>
+
+                <div>
+                    <div class="about__information">
+                    <h3 class="about__information-title">Information</h2>
+                        
+                    <div class="about__information-data">
+                        <i class="bx bx-user about__information-icon"></i>
+                        <span>Augusto Carmona</span>
+                    </div>
+
+                    <div class="about__information-data">
+                        <i class="bx bx-phone about__information-icon"></i>
+                        <span>341-386-7055</span>
+                    </div>
+
+                    <div class="about__information-data">
+                        <i class="bx bx-envelope about__information-icon"></i>
+                        <span>acarmona@fi.uba.ar</span>
+                    </div>
+                    </div>
+                        
+                    <div class="about__information">
+                    <h3 class="about__information-title">Experience and support</h2>
+                        <div class="about__information-data">
+                            <i class="bx bx-medal about__information-icon"></i>
+                            <div>
+                                <span class="about__information-subtitle">2 Years Programming</span>
+                                <span class="about__information-subtitle-small">Experience</span>
+                            </div>
+                        </div>
+                        <div class="about__information-data">
+                            <i class="bx bx-briefcase about__information-icon"></i>
+                            <div>
+                                <span class="about__information-subtitle">6+ Projects</span>
+                                <span class="about__information-subtitle-small">Completed</span>
+                            </div>
+                        </div>
+                        <div class="about__information-data">
+                            <i class="bx bx-support about__information-icon"></i>
+                            <div>
+                                <span class="about__information-subtitle">Support</span>
+                                <span class="about__information-subtitle-small">Online 24/7</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /About -->
+
+        <!-- Skills 
+        <section class="skills section" id="skills">
+            <span class="section-subtitle">Why Choose Me</span>
+            <h2 class="section-title">My Expertise Area</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Languages And Frameworks</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">HTML/CSS</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__number">90%</span>
+                        <span class="skills__bar skills__js"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Python</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__react"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Bootstrap</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__angular"></span>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Soft Habilities</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Bilingual Communicator</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__php"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Team Worker</span>
+                        <span class="skills__number">90%</span>
+                        <span class="skills__bar skills__node"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Allways At Hand</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__firebase"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Clear</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__python"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+         /Skills -->
+
+        <!-- Education
+        <section class="education section">
+            <span class="section-subtitle">Qualification</span>
+            <h2 class="section-title">My Education</h2>
+
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2018 - Current</h3>
+                        <span class="education__university">University of Buenos Aires</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Systems Analysis</h3>
+                        <span class="education__speciality">Diploma</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2017</h3>
+                        <span class="education__university">Aricana Rosario</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">English Title 2</h3>
+                        <span class="education__speciality">American English</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2016</h3>
+                        <span class="education__university">EF Oxford</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">English Title 1</h3>
+                        <span class="education__speciality">British English</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        /Education -->
+
+        <!-- Services 
+        <section class="services section" id="services">
+            <span class="section-subtitle">What I Offer</span>
+            <h2 class="section-title">My Services</h2>
+
+            <div class="services__container bd-grid">
+                <div class="services__content">
+                    <i class="bx bx-code services__icon"></i>
+                    <h3 class="services__title">Web Design</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam voluptatibus officia, a dolores temporibus nulla vitae? Iste vero aliquid repudiandae voluptatibus aperiam! Unde suscipit ipsam praesentium impedit, vel consequatur magni?</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-server services__icon"></i>
+                    <h3 class="services__title">Back-End Development</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam voluptatibus officia, a dolores temporibus nulla vitae? Iste vero aliquid repudiandae voluptatibus aperiam! Unde suscipit ipsam praesentium impedit, vel consequatur magni?</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-server services__icon"></i>
+                    <h3 class="services__title">Data Bases</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam voluptatibus officia, a dolores temporibus nulla vitae? Iste vero aliquid repudiandae voluptatibus aperiam! Unde suscipit ipsam praesentium impedit, vel consequatur magni?</p>
+                </div>
+
+            </div>
+        </section>
+         /Services -->
+
+        <!-- Project in mind 
+        <section class="project section" id="project">
+            <div class="project__container bd-grid">
+                <div class="project__data">
+                    <h2 class="section-title project__title">Do you have a project in mind?</h2>
+                    <p class="project__description">If you need your own website, or you are looking for IT support, don't hesitate to contact me.</p>
+                    <a href="#contact" class="button button__light">Contact Me</a>
+                </div>
+
+                img src="assets/img/projectmind.png" alt="project image"> Acá va una imagen mía
+            </div>
+        </section>
+         /Project in mind -->
+
+        <!-- Works 
+        <section class="works section" id="works">
+            <span class="section-subtitle">My Portfolio</span>
+            <h2 class="section-title">Recent Works</h2>
+
+            <div class="works__container bd-grid">
+                <div class="works__img">
+                    <img src="assets/img/work1.jpg" alt="work 1">
+
+                    <div class="works__data">
+                        <a href="" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Work 1</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/work2.jpg" alt="work 2">
+
+                    <div class="works__data">
+                        <a href="" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Work 2</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/work3.jpg" alt="work 3">
+
+                    <div class="works__data">
+                        <a href="" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Work 3</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/work4.jpg" alt="work 4">
+
+                    <div class="works__data">
+                        <a href="" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Work 4</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/work5.jpg" alt="work 5">
+
+                    <div class="works__data">
+                        <a href="" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Work 5</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/work6.jpg" alt="work 6">
+
+                    <div class="works__data">
+                        <a href="" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Work 6</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+         /Works -->
+
+        <!-- Contact 
+        <section class="contact section" id="contact">
+            <span class="section-subtitle">Contact Me</span>
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="E-mail" class="contact__input">
+                    </div>
+
+                    <input type="text" placeholder="Project" class="contact__input">
+                    
+                    <textarea name="" id="" cols="0" rows="3" placeholder="Message" class="contact__input"></textarea>
+
+                    <input type="Submit" value="Send Message" class="button contact__button">
+                </form>
+
+                <div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Want to Call Me?</h3>
+                        <span class="contact__text">341-386-7055</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Or Email me?</h3>
+                        <span class="contact__text">acarmona@fi.uba.ar</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Location</h3>
+                        <span class="contact__text">Buenos Aires,</span>
+                        <span class="contact__text">Argentina</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+         /Contact -->
+
+        <!-- Footer -->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <h1 class="footer__title">Thank You!</h1>
+                <p class="footer__description">For visiting my Website, and don't forgent to check my social accounts!</p>
+
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/augusto.carmona.perez" class="footer__link"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/augusto.carmona/" class="footer__link"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://github.com/AugustoCarmona" class="footer__link"><i class="bx bxl-github"></i></a>
+                </div>
+
+                <p class="footer__copy">All right reserved by Augusto Carmona - 2020</p>
+            </div>
+        </footer>
+        <!-- /Footer -->
+
+        <!-- Js scripts -->
+        <script src="./assets/js/main.js"></script>
+    </body>
 </html>
