@@ -333,28 +333,28 @@ img {
     background-color: var(--first-color);
 }
 .skills__html {
-    width: 80%;
-}
-.skills__js {
-    width: 90%;
-}
-.skills__react {
     width: 70%;
 }
-.skills__angular {
-    width: 60%;
-}
-.skills__php {
-    width: 80%;
-}
-.skills__node {
-    width: 90%;
-}
-.skills__firebase {
+.skills__js {
     width: 70%;
 }
 .skills__python {
-    width: 60%;
+    width: 75%;
+}
+.skills__bootstrap {
+    width: 50%;
+}
+.skills__bilingual {
+    width: 95%;
+}
+.skills__worker {
+    width: 90%;
+}
+.skills__allways {
+    width: 85%;
+}
+.skills__clear {
+    width: 90%;
 }
 
 /* EDUCATION */
